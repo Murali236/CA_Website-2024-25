@@ -41,6 +41,10 @@ prev.addEventListener('click', function() {
     slide.prepend(items[items.length - 1]);
 });
 
+setInterval(function() {
+    next.click();
+}, 1500);
+
 
 //nav
 document.querySelector('.toggle-button').addEventListener('click', function () {
